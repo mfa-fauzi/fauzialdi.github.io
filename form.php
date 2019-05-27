@@ -16,6 +16,8 @@
     echo "The Server failed to sent the message. please try again leter";
   }
 }*/
+
+{% include index.html %}
 $errors = '';
 $myemail = 'fauzialdi005@gmail.com';
 if(empty($_POST['name'])  ||
